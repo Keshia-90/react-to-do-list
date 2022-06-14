@@ -6,7 +6,7 @@ const [complete, setComplete] = useState(false);
 return (
     <div>
     {complete ? (
-        <h2 className="taskDone" style={{textDecoration: "line-through", color:"darkmagenta" }}>
+        <h2 className="taskDone" style={{textDecoration: "line-through", color:"#00C0FF" }}>
         {task}
         </h2>
     ) : (

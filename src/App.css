@@ -13,12 +13,14 @@ h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
     text-decoration: underline;
+    text-shadow: 0 0 4px white, 0 0 1px black, 0 0 4px white, 0 0 1px black; 
 }
 
 .newTask{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
+    text-shadow: 0 0 2px white , 0 0 2px  white, 0 0 2px  white, 0 0 2px  white;
 }
 
 .taskDone{
@@ -48,6 +50,7 @@ h1{
     color: aliceblue;
     background-color: rgb(51, 68, 120);
     border-radius: 10px;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 .add{   
@@ -72,6 +75,8 @@ animation:slidebg 5s linear infinite;
     margin-left: auto;
     text-align: center;
     font-size: 30px;
+    text-shadow: 0 0 1px white , 0 0 1px  white, 0 0 1px  white, 0 0 1px  white;
+
 }
 
 .delete{   
@@ -92,6 +97,8 @@ animation:slidebg 5s linear infinite;
     margin-left: auto;
     text-align: center;
     font-size: 30px;
+    text-shadow: 0 0 1px white , 0 0 1px  white, 0 0 1px  white, 0 0 1px  white;
+
 }
 
 .complete{   
@@ -104,6 +111,9 @@ animation:slidebg 5s linear infinite;
     }
 }
 
+.taskDone{
+    text-shadow: 0 0 5px black , 0 0 5px  black, 0 0 5px  black, 0 0 5px  black;
+}
 
 
 
